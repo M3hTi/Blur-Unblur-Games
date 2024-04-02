@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+.wrapper1,.wrapper2{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 15px;
+}
+.wrapper1 img, .wrapper2 img{
+    border: 5px solid black;
+    cursor: pointer;
+}
+.wrapper2{
+    justify-content: center;
+    margin-top: 10px;
+}
